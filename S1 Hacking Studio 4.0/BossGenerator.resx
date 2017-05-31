@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Работа генератора предельно проста! Просто напишите в свободной форме, какого босса вы хотите создать и магическим путём программа сгенерирует код! Алгоритм генерации основан на работе нейронных сетей, обученных во время разработки Sonic Virtual Adventures (то есть будут такие жу крутые боссы, как у TheBlad768).</value>
+  </data>
 </root>
