@@ -79,5 +79,15 @@ namespace S1_Hacking_Studio_4._0.Properties {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap фтшь {
+            get {
+                object obj = ResourceManager.GetObject("фтшь", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

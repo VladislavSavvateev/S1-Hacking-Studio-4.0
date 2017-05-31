@@ -67,7 +67,7 @@
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.btnBossGenerator);
 			this.Name = "Form1";
-			this.Text = "Form1";
+			this.Text = "S1 Hacking Studio 4.0";
 			this.ResumeLayout(false);
 
 		}
