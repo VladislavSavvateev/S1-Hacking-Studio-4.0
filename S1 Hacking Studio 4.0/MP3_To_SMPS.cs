@@ -45,7 +45,22 @@ namespace S1_Hacking_Studio_4._0 {
 		}
 
 		void dich() {
+			while (gw == null);
+			SetText(gw.lblStatus, "Анализ частотных данных...");
 			Thread.Sleep(new Random().Next(500, 3000));
+			SetText(gw.lblStatus, "Выделение нотных данных...");
+			Thread.Sleep(new Random().Next(500, 3000));
+			SetText(gw.lblStatus, "Разделение по инструментам...");
+			Thread.Sleep(new Random().Next(500, 3000));
+			SetText(gw.lblStatus, "Анализ примененных эффектов...");
+			Thread.Sleep(new Random().Next(500, 3000));
+			SetText(gw.lblStatus, "Оптимизация под формат SMPS...");
+			Thread.Sleep(new Random().Next(500, 3000));
+			SetText(gw.lblStatus, "Создание оптимальных голосов SMPS...");
+			Thread.Sleep(new Random().Next(500, 3000));
+			SetText(gw.lblStatus, "Конвертация в SMPS...");
+			Thread.Sleep(new Random().Next(500, 3000));
+
 			FileStream fs = new FileStream(sfd.FileName, FileMode.Create);
 			byte[] smps = Properties.Resources.Rick_Astley___Give_You_Up;
 			fs.Write(smps, 0, smps.Length);
@@ -55,9 +70,15 @@ namespace S1_Hacking_Studio_4._0 {
 		}
 
 		delegate void CloseFormHandler(Form f);
+		delegate void SetTextHandler(Label l, String s);
 		void CloseForm(Form f) {
 			if (f.InvokeRequired) f.Invoke(new CloseFormHandler(CloseForm), new object[] { f });
 			else f.Close();
 		}
+		void SetText(Label l, String s) {
+			if (l.InvokeRequired) l.Invoke(new SetTextHandler(SetText), new object[] { l, s });
+			else l.Text = s;
+		}
+
 	}
 }

@@ -26,6 +26,7 @@
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
+			this.lblStatus = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -59,6 +60,14 @@
 			this.label2.TabIndex = 2;
 			this.label2.Text = "Please, wait!";
 			// 
+			// lblStatus
+			// 
+			this.lblStatus.AutoSize = true;
+			this.lblStatus.Location = new System.Drawing.Point(150, 9);
+			this.lblStatus.Name = "lblStatus";
+			this.lblStatus.Size = new System.Drawing.Size(0, 13);
+			this.lblStatus.TabIndex = 3;
+			// 
 			// GenaWaiting
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -66,6 +75,7 @@
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(520, 154);
 			this.ControlBox = false;
+			this.Controls.Add(this.lblStatus);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.pictureBox1);
@@ -82,5 +92,6 @@
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
+		public System.Windows.Forms.Label lblStatus;
 	}
 }
