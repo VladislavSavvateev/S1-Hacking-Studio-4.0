@@ -69,5 +69,15 @@ namespace S1_Hacking_Studio_4._0.Properties {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Rick_Astley___Give_You_Up {
+            get {
+                object obj = ResourceManager.GetObject("Rick_Astley___Give_You_Up", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

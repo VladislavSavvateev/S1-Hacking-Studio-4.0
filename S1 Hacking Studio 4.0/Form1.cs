@@ -23,5 +23,9 @@ namespace S1_Hacking_Studio_4._0 {
 		private void button1_Click(object sender, EventArgs e) {
 			new GraphicImprover().ShowDialog();
 		}
+
+		private void button2_Click(object sender, EventArgs e) {
+			new MP3_To_SMPS().ShowDialog();
+		}
 	}
 }

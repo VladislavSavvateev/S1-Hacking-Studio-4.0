@@ -40,6 +40,10 @@ namespace S1_Hacking_Studio_4._0 {
 		}
 
 		private void btnImprove_Click(object sender, EventArgs e) {
+			if (txtPath.Text == "") {
+				MessageBox.Show("Выберите файл с графикой!!", "*_*", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+				return;
+			}
 			FileStream fs = new FileStream(txtPath.Text, FileMode.Open);
 			byte[] arr = new byte[fs.Length];
 			fs.Read(arr, 0, arr.Length);

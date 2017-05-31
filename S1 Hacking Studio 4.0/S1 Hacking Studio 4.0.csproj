@@ -86,6 +86,12 @@
     <Compile Include="GraphicImprover.Designer.cs">
       <DependentUpon>GraphicImprover.cs</DependentUpon>
     </Compile>
+    <Compile Include="MP3_To_SMPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MP3_To_SMPS.Designer.cs">
+      <DependentUpon>MP3_To_SMPS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BossGenerator.resx">
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicImprover.resx">
       <DependentUpon>GraphicImprover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MP3_To_SMPS.resx">
+      <DependentUpon>MP3_To_SMPS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,6 +126,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Resources\Code.asm" />
+    <None Include="Resources\Rick Astley - Give You Up.bin" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
