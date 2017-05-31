@@ -19,5 +19,9 @@ namespace S1_Hacking_Studio_4._0 {
 		private void btnBossGenerator_Click(object sender, EventArgs e) {
 			new BossGenerator().ShowDialog();
 		}
+
+		private void button1_Click(object sender, EventArgs e) {
+			new GraphicImprover().ShowDialog();
+		}
 	}
 }
