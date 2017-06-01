@@ -9,10 +9,13 @@ using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace S1_Hacking_Studio_4._0 {
 	public partial class Form1 : Form {
-		public Form1() {
+        
+
+        public Form1() {
 			InitializeComponent();
 		}
 

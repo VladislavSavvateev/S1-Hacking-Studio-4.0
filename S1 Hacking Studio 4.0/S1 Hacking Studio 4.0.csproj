@@ -49,11 +49,14 @@
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Program Files (x86)\Bunifu Technologies\Bunifu Framework Manager\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
     <Reference Include="SonicRetro.KensSharp.Kosinski">
-      <HintPath>..\..\..\Различные либы\KensSharpFrontend\SonicRetro.KensSharp.Kosinski.dll</HintPath>
+      <HintPath>C:\Users\egor2\Documents\KensSharpFrontend\SonicRetro.KensSharp.Kosinski.dll</HintPath>
     </Reference>
     <Reference Include="SonicRetro.KensSharp.Nemesis">
-      <HintPath>..\..\..\Различные либы\KensSharpFrontend\SonicRetro.KensSharp.Nemesis.dll</HintPath>
+      <HintPath>C:\Users\egor2\Documents\KensSharpFrontend\SonicRetro.KensSharp.Nemesis.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -156,6 +159,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\фтшь.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32870546794_1fe4deaf24_o.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
