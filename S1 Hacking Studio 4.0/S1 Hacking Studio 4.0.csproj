@@ -50,13 +50,13 @@
   <PropertyGroup />
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>C:\Program Files (x86)\Bunifu Technologies\Bunifu Framework Manager\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\..\Visual Studio 2013\Projects\S1 Hacking Studio 4.0\S1 Hacking Studio 4.0\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="SonicRetro.KensSharp.Kosinski">
-      <HintPath>C:\Users\egor2\Documents\KensSharpFrontend\SonicRetro.KensSharp.Kosinski.dll</HintPath>
+      <HintPath>..\..\..\Visual Studio 2013\Различные либы\KensSharpFrontend\SonicRetro.KensSharp.Kosinski.dll</HintPath>
     </Reference>
     <Reference Include="SonicRetro.KensSharp.Nemesis">
-      <HintPath>C:\Users\egor2\Documents\KensSharpFrontend\SonicRetro.KensSharp.Nemesis.dll</HintPath>
+      <HintPath>..\..\..\Visual Studio 2013\Различные либы\KensSharpFrontend\SonicRetro.KensSharp.Nemesis.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
