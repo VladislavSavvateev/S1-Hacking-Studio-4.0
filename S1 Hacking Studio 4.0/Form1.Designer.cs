@@ -23,52 +23,86 @@
 		/// содержимое этого метода с помощью редактора кода.
 		/// </summary>
 		private void InitializeComponent() {
-			this.btnBossGenerator = new System.Windows.Forms.Button();
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.SuspendLayout();
-			// 
-			// btnBossGenerator
-			// 
-			this.btnBossGenerator.Location = new System.Drawing.Point(12, 12);
-			this.btnBossGenerator.Name = "btnBossGenerator";
-			this.btnBossGenerator.Size = new System.Drawing.Size(123, 23);
-			this.btnBossGenerator.TabIndex = 0;
-			this.btnBossGenerator.Text = "Генератор боссов";
-			this.btnBossGenerator.UseVisualStyleBackColor = true;
-			this.btnBossGenerator.Click += new System.EventHandler(this.btnBossGenerator_Click);
-			// 
-			// button1
-			// 
-			this.button1.Location = new System.Drawing.Point(12, 41);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(123, 23);
-			this.button1.TabIndex = 1;
-			this.button1.Text = "Улучшатель графики";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
-			// 
-			// button2
-			// 
-			this.button2.Location = new System.Drawing.Point(12, 70);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(123, 23);
-			this.button2.TabIndex = 2;
-			this.button2.Text = "MP3 -> SMPS";
-			this.button2.UseVisualStyleBackColor = true;
-			this.button2.Click += new System.EventHandler(this.button2_Click);
-			// 
-			// Form1
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 262);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
-			this.Controls.Add(this.btnBossGenerator);
-			this.Name = "Form1";
-			this.Text = "S1 Hacking Studio 4.0";
-			this.ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            this.btnBossGenerator = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // btnBossGenerator
+            // 
+            this.btnBossGenerator.Location = new System.Drawing.Point(32, 21);
+            this.btnBossGenerator.Name = "btnBossGenerator";
+            this.btnBossGenerator.Size = new System.Drawing.Size(123, 23);
+            this.btnBossGenerator.TabIndex = 0;
+            this.btnBossGenerator.Text = "Генератор боссов";
+            this.btnBossGenerator.UseVisualStyleBackColor = true;
+            this.btnBossGenerator.Click += new System.EventHandler(this.btnBossGenerator_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(32, 50);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Улучшатель графики";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(32, 79);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(123, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "MP3 -> SMPS";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.panel1.Controls.Add(this.btnBossGenerator);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 431);
+            this.panel1.TabIndex = 3;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.BackgroundImage = global::S1_Hacking_Studio_4._0.Properties.Resources._32870546794_1fe4deaf24_o;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(200, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(738, 184);
+            this.panel2.TabIndex = 4;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(938, 431);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form1";
+            this.Text = "S1 Hacking Studio 4.0";
+            this.panel1.ResumeLayout(false);
+            this.ResumeLayout(false);
 
 		}
 
@@ -77,6 +111,9 @@
 		private System.Windows.Forms.Button btnBossGenerator;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button button2;
-	}
+        private System.Windows.Forms.Panel panel1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Panel panel2;
+    }
 }
 
