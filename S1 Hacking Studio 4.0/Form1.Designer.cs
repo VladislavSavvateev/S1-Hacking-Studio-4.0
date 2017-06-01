@@ -66,7 +66,7 @@
 			// 
 			// panel1
 			// 
-			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+			this.panel1.BackColor = System.Drawing.Color.FromArgb(17, 17, 17);
 			this.panel1.Controls.Add(this.btn);
 			this.panel1.Controls.Add(this.btnBossGenerator);
 			this.panel1.Controls.Add(this.button2);
