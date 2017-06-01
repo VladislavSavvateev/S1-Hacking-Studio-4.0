@@ -104,6 +104,7 @@
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 			this.MouseDown += Form1_MouseDown;
+			// хуй
 		}
 
 		#endregion
